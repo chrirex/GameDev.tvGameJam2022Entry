@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Intersection
+  - Ghost
+  - Goal
+  - BitsSpawn
+  - Bit
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Wall
+  - Water
+  - UI
+  - Abyss
+  - Intersections
+  - Start
+  - Goal
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Abyss
+    uniqueID: 457692015
+    locked: 0
+  - name: Floor
+    uniqueID: 2714317393
+    locked: 0
+  - name: Walls
+    uniqueID: 2983068253
+    locked: 0
+  - name: Sprites
+    uniqueID: 835851613
+    locked: 0
