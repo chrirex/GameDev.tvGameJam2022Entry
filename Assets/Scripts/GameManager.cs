@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour {
     [SerializeField] GameObject notDoneMsg;
     private bool isPaused = false;
 
-
     private void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             SetGamePause();

@@ -32,7 +32,12 @@ public class Player : MonoBehaviour {
         // Move movePoint based on player input and collision detection
         if (Vector3.Distance(transform.position, movePoint.position) <= .05) {
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f) {
+                /*if (!Physics2D.CircleCast(movePoint.position, .2f, new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), whatStopsMovement)) {
+                    Debug.Log("Does this work");
+                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                }*/
                 if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement)) {
+                    Debug.Log("Entered overlap circle with value of false");
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                 }
                 if ((Input.GetAxisRaw("Horizontal") > 0 && !facingRight) || (Input.GetAxisRaw("Horizontal") < 0 && facingRight)) { // moving right, but not facing right

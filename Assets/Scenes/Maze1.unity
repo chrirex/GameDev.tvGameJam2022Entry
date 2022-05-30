@@ -30806,8 +30806,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 457692015
-  m_SortingLayer: 1
+  m_SortingLayerID: -1311899043
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -83272,18 +83272,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
-    - target: {fileID: 1468192388114339185, guid: e685fb3f06ce9024c9741b50779ddb89, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1468192388114339186, guid: e685fb3f06ce9024c9741b50779ddb89, type: 3}
-      propertyPath: moveSpeed
-      value: 5.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1468192388114339186, guid: e685fb3f06ce9024c9741b50779ddb89, type: 3}
-      propertyPath: overlapSize
-      value: 0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 1468192388114339189, guid: e685fb3f06ce9024c9741b50779ddb89, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -83326,10 +83314,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1468192388114339189, guid: e685fb3f06ce9024c9741b50779ddb89, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1468192388114339190, guid: e685fb3f06ce9024c9741b50779ddb89, type: 3}
-      propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -83446,10 +83430,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3154408643588178208, guid: 386af45775f34f94ea083fad2d0054a6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3154408643588178210, guid: 386af45775f34f94ea083fad2d0054a6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -83492,18 +83472,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3154408643588178210, guid: 386af45775f34f94ea083fad2d0054a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3154408643588178211, guid: 386af45775f34f94ea083fad2d0054a6, type: 3}
-      propertyPath: m_SortingLayer
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3154408643588178211, guid: 386af45775f34f94ea083fad2d0054a6, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 835851613
-      objectReference: {fileID: 0}
-    - target: {fileID: 3154408643588178221, guid: 386af45775f34f94ea083fad2d0054a6, type: 3}
-      propertyPath: numBitsCollected
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

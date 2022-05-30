@@ -126,7 +126,7 @@ MonoBehaviour:
   startPos:
     serializedVersion: 2
     m_Bits: 0
-  overlapSize: 0
+  overlapSize: 0.25
   isPaused: 0
   _direction: 0
 --- !u!50 &1468192388114339190
@@ -160,7 +160,7 @@ Animator:
   m_GameObject: {fileID: 1468192388114339185}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2ebb9c9bc9cd1624c9bbddc5fdf250d5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 05cc7a9cdcdb5f64db5b19c1e47c034a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
